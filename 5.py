@@ -1,9 +1,6 @@
 """
 Two Sum II problem
-# Suggested code may be subject to a license. Learn more: ~LicenseLog:872597672.
-# Suggested code may be subject to a license. Learn more: ~LicenseLog:2210877406.
 The problem is given a sorted array of integers numbers that is already sorted in non-decreasing order, 
-# Suggested code may be subject to a license. Learn more: ~LicenseLog:313185567.
 find two numbers such that they add up to a specific target number.
 
 In this problem, each input would have exactly one solution.
@@ -11,7 +8,6 @@ In this problem, each input would have exactly one solution.
 You may not use the same element twice.
 """
 
-# Suggested code may be subject to a license. Learn more: ~LicenseLog:3210500123.
 def twoSum(numbers, target):
     l = 0
     r = len(numbers) - 1
