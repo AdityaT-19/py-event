@@ -14,7 +14,7 @@ def isValid(s):
     pairs = {')':'(', '}':'{', ']':'['}
     
     for c in s:
-        if c in pairs.values():
+        if c in pairs:
             if not stk or stk.pop() != pairs[c]:
                 return False
         elif c in pairs.values():

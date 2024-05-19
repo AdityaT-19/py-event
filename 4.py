@@ -17,7 +17,7 @@ def groupAnagrams(strs):
         for c in s:
             count[ord(c)-ord('a')] += 1
         di[tuple(count)].append(s)
-    return di.values()
+    return list(di.values())
 
 auto = input("Do you want to run the predefined test cases? (Y/n) : ")
 
